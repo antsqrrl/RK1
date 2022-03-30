@@ -70,7 +70,7 @@ void linkedListToFile(FILE* out, Node* TAIL) // задача 6
     cur_node = TAIL;
     do
     {
-        fprintf(out, "%d\t%s\t%d\n", elements_num, cur_node->string, cur_node->size);
+        fprintf();
         elements_num--;
         cur_node = cur_node->prev;
     }
